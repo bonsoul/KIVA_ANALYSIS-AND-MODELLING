@@ -17,17 +17,32 @@ The research employs data visualization and statistical modeling to analyze data
 <div align="center">
   <table>
     <tr>
-      <td><img src="plot1.png" width="300"/></td>
-      <td><img src="plot2.png" width="300"/></td>
+      <td><img src="Dorminant Field.png" width="300"/></td>
+      <td><img src="Activity and Count.png" width="300"/></td>
     </tr>
     <tr>
-      <td><img src="plot3.png" width="300"/></td>
-      <td><img src="plot4.png" width="300"/></td>
+      <td><img src="Rplot02.png" width="300"/></td>
+      <td><img src="Popular Use.png" width="300"/></td>
     </tr>
   </table>
-  <p><b>Figure:</b> Multiple Plots in 2x2 Layout</p>
+  <p><b>Figure:</b> Visuals </p>
 </div>
 
+#### Time Series Analysis
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="Rplot14.png" width="300"/></td>
+      <td><img src="Rplot09.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><img src="Rplot10.png" width="300"/></td>
+      <td><img src="Rplot08.png" width="300"/></td>
+    </tr>
+  </table>
+  <p><b>Figure:</b> Time Series Analysis </p>
+</div>
 
 ### Data Sources
 
