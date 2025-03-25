@@ -1,7 +1,11 @@
 # Kiva Analysis and Modelling
 
 This research analyzes the relationship between poverty levels and microloan distribution in Kenya, utilizing datasets from Kiva, a microfinance platform. The study integrates geographic and statistical techniques to assess the effectiveness of microloan allocations in addressing poverty.
-<img src="plot.png" alt="Epidemic Curve" width="500"/>
+
+<div align="center">
+  <img src="PovertyGap.png" alt="Poverty Gap" width="500"/>
+  <p><b>Figure 1:</b> Poverty Gap in Kenya </p>
+</div>
 
 
 ### Introduction
@@ -9,6 +13,21 @@ Poverty remains a significant challenge in Kenya, with various regions experienc
 
 
 The research employs data visualization and statistical modeling to analyze datasets on poverty estimates and Kiva loans. Data preprocessing ensures accuracy in county-level poverty assessments. The study integrates geospatial mapping using leaflet and sf libraries in R to visualize poverty distribution. Trend analysis and predictive modeling with ARIMA and Prophet models forecast loan distribution trends.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="plot1.png" width="300"/></td>
+      <td><img src="plot2.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><img src="plot3.png" width="300"/></td>
+      <td><img src="plot4.png" width="300"/></td>
+    </tr>
+  </table>
+  <p><b>Figure:</b> Multiple Plots in 2x2 Layout</p>
+</div>
+
 
 ### Data Sources
 
