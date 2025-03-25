@@ -1,69 +1,46 @@
 # Kiva Analysis and Modelling
 
-Objectives
+This research analyzes the relationship between poverty levels and microloan distribution in Kenya, utilizing datasets from Kiva, a microfinance platform. The study integrates geographic and statistical techniques to assess the effectiveness of microloan allocations in addressing poverty.
 
-The primary objectives of this project are to:
+### Introduction
+Poverty remains a significant challenge in Kenya, with various regions experiencing different levels of economic hardship. Microfinance institutions such as Kiva play a crucial role in providing financial assistance to underserved communities. This study evaluates poverty estimates and microloan trends to understand their impact on economic development.
 
-Understand the poverty index in Kenya across all the counties.
 
-Analyze the distribution of loan amounts funded through Kiva.
+The research employs data visualization and statistical modeling to analyze datasets on poverty estimates and Kiva loans. Data preprocessing ensures accuracy in county-level poverty assessments. The study integrates geospatial mapping using leaflet and sf libraries in R to visualize poverty distribution. Trend analysis and predictive modeling with ARIMA and Prophet models forecast loan distribution trends.
 
-Identify the sectors receiving the most funding.
+### Data Sources
 
-Visualize the geographic distribution of loans.
+*Overall Poverty Estimates: Provides percentage distribution of poverty across Kenyan counties.*
 
-Evaluate repayment trends and key factors influencing successful repayments.
+*Hardcore and Food Poverty Estimates: Highlight extreme poverty conditions and food insecurity.*
 
-Develop a time series model to predict future loan trends.
+*Kiva Loans Dataset: Contains information on loan amounts, sectors, and geographical distribution.*
 
-Data Overview
+*Shapefiles: Used for mapping poverty distribution across counties.*
 
-The dataset used in this analysis contains information on Kiva loans, including loan amounts, borrower details, sectors, repayment statuses, and geographic locations. Visualizations and predictive modeling techniques were applied to generate insights.
+### Findings
 
-Key Findings
+The highest poverty gaps are observed in counties such as Turkana, Mandera, and Wajir.
 
-Poverty Index Analysis
+Microloans are predominantly allocated to agriculture, retail, and education sectors.
 
-Significant variation in poverty levels was observed across different counties in Kenya.
+A geographical disparity exists in loan distribution, with urban counties receiving more loans than rural ones.
 
-Counties with higher poverty rates received a larger share of microloans, particularly in the Agriculture and Retail sectors.
+Predictive analysis indicates an increasing trend in microloan disbursement, suggesting growing microfinance engagement.
 
-Loan Amount Distribution
-
-Most loans were small, with a right-skewed distribution.
-
-Larger loan amounts were directed towards Agriculture and Manufacturing sectors.
-
-Sector Insights
-
-Agriculture, Retail, and Food sectors received the majority of loans.
-
-The Education and Health sectors had fewer loans, indicating potential gaps.
-
-Geographic Distribution
-
-Developing regions, particularly in Africa and Southeast Asia, received substantial loan funding.
-
-Certain countries exhibited a higher volume of small-scale loans, particularly in the Retail sector.
-
-Repayment Trends
-
-High repayment rates were observed in Agriculture and Services sectors.
-
-Longer loan terms correlated with lower default rates.
-
-Female borrowers demonstrated higher repayment rates.
-
-Gender and Social Impact
-
-A significant portion of loans were issued to women, supporting the empowerment of female entrepreneurs.
-
-Time Series Model
-
-A predictive time series model suggests a steady increase in loan applications.
-
-The forecast indicates higher loan demands, especially in sectors with robust repayment rates.
+Discussion
+The study highlights that while microloans significantly impact economic activities, their distribution remains uneven. The correlation between poverty intensity and loan distribution suggests that targeted lending strategies could improve the effectiveness of microfinance interventions.
 
 Conclusion
+Microfinance initiatives have the potential to alleviate poverty in Kenya, but strategic loan allocations are necessary for maximum impact. Further research should focus on borrower success rates and loan repayment behaviors.
 
-The analysis highlights that Kiva's funding model effectively supports sectors with high social impact. The findings suggest opportunities for further targeted funding in underserved sectors like Education and Health.
+### References
+
+*World Bank Kenya Poverty Report (2024)*
+
+*Kiva Microfinance Data (2025)*
+
+*Kenya National Bureau of Statistics (2024)*
+
+*Academic literature on microfinance impact in Sub-Saharan Africa*
+
