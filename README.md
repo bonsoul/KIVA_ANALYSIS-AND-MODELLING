@@ -1,6 +1,8 @@
 # Kiva Analysis and Modelling
 
 This research analyzes the relationship between poverty levels and microloan distribution in Kenya, utilizing datasets from Kiva, a microfinance platform. The study integrates geographic and statistical techniques to assess the effectiveness of microloan allocations in addressing poverty.
+<img src="plot.png" alt="Epidemic Curve" width="500"/>
+
 
 ### Introduction
 Poverty remains a significant challenge in Kenya, with various regions experiencing different levels of economic hardship. Microfinance institutions such as Kiva play a crucial role in providing financial assistance to underserved communities. This study evaluates poverty estimates and microloan trends to understand their impact on economic development.
